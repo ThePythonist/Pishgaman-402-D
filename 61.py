@@ -8,18 +8,18 @@
 #
 # print(d)
 # ----------------------------------------
-word = "Python"
-d = {}
-
-for i in range(len(word)):
-    d.setdefault(i, word[i])
-
-print(d)
+# word = "Python"
+# d = {}
+#
+# for i in range(len(word)):
+#     d.setdefault(i, word[i])
+#
+# print(d)
 # ----------------------------------------
 # word = "Python"
 # d = dict(zip(range(len(word)), word))
 # print(d)
 # ----------------------------------------
-word = "JAVA"
-d = tuple(zip(range(len(word)), word))
+word = "Engineer"
+d = dict(zip(range(len(word)), word))
 print(d)
